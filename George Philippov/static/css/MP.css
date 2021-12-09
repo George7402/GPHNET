@@ -26,6 +26,10 @@ color: #FFFFFF;
 .dark_text{
 color: #000000;
 }
+#MP_hower{
+background-color:#4169E1;
+border-radius:10px;
+}
 .hr_dark{
 	background-color: #1A1A1A;
 	color: #1A1A1A;
