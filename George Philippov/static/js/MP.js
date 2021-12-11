@@ -177,5 +177,17 @@ $(document).ready(function(){
 	});
 	$('#creator').on('click',function(){
 		location.href="https://vk.com/excellent.trick";
-	})
+	});
+	
+	function sendMail() {
+	    var link = "mailto:gosha.philippov@gmail.com"
+		     + "?cc=" + encodeURIComponent(document.getElementById('from_email').value)
+		     + "&subject=" + encodeURIComponent("Proposions")
+		     + "&body=" + encodeURIComponent(document.getElementById('myText').value)
+	    ;
+	    window.location.href = link;
+		};
+		$("#Email_button").on('click',function(){
+			sendMail();
+	});
 });
