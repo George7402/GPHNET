@@ -131,3 +131,8 @@ height: 160px;
 .Logo{
 border-radius: 10px
 }
+@include media-breakpoint-up(sm) { 
+		#main_navbar{
+			width:100%;
+		}
+}
