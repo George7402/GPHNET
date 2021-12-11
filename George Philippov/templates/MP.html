@@ -104,9 +104,41 @@
 				</div>
 			</div>
 		</div>
-		<div class='container set_color_light' id="main_settings_background">
-			<h1>ПРИВЕТ</h1>
-		</div>
+		<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+			    <div class="offcanvas-header">
+			    	<h5 id="offcanvasRightLabel"></h5>
+			    	<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			    </div>
+			    <div class="offcanvas-body">
+			    	<div class='container set_color_light' id="main_settings_background">
+			    		<form>
+							<div class="row">
+								<div class="col text">
+									<h3>Your proposal for additions</h3>
+								</div>
+							</div>
+						</form>
+						<form>
+							<div class="row">
+								<div class="col">
+									<input type="text" id="from_email">
+								</div>
+							</div>
+						</form>
+						<form>
+							<div class="row">
+								<div class="col">
+									<textarea id="myText" placeholder="What you would like to recommend us?"></textarea>
+								</div>
+							</div>
+						</form>
+						<button id="Email_button">Send</button>
+					</div>
+  				</div>
+</div>
+		
 		<script type="text/javascript" src="../static/js/jquery.js"></script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
