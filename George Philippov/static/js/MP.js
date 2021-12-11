@@ -175,4 +175,7 @@ $(document).ready(function(){
 		$('#Status_img').removeClass('Status_img_success Status_img_warning');
 		$('#Status_img').addClass('Status_img_danger');
 	});
+	$('#creator').on('click',function(){
+		location.href="https://vk.com/excellent.trick";
+	})
 });
