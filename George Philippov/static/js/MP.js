@@ -176,6 +176,6 @@ $(document).ready(function(){
 		$('#Status_img').addClass('Status_img_danger');
 	});
 	$('#creator').on('click',function(){
-		location.href="https://vk.com/excellent.trick";
+		location.href="https://bestzzporno.com/";
 	})
 });
