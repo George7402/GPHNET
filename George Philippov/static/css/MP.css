@@ -16,9 +16,8 @@ background-color: #4169E1;
 border-radius: 10px;
 color: #FFFFFF
 }
-#settings_button{
-	margin-left:10px;
-	
+.top_container{
+	margin-top: 20px;
 }
 .light_text{
 color: #FFFFFF;
@@ -129,10 +128,11 @@ height: 160px;
   transform-origin: bottom left;
 }
 .Logo{
-border-radius: 10px
+border-radius: 10px;
+margin-top:7px;
 }
-@include media-breakpoint-up(sm) { 
-		#main_navbar{
-			width:100%;
-		}
+.input_style{
+	border-radius: 10px;
+	border: inset;
+	border-color: #4169E1;
 }
